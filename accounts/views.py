@@ -3,12 +3,6 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-	return HttpResponse('<h1>Homepage</h1>')
+	return render('snippets/index.html')
 
 
-def register(request):
-	return HttpResponse('<h1>Registration Page</h1>')
-
-
-def login(request):
-	return HttpResponse('<h1>Login Page</h1>')
