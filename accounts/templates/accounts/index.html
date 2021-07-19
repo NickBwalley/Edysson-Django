@@ -53,7 +53,7 @@
           <li><a href="#services">Services</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
-          <li><a href="{% url 'login' %}">Login</a></li>
+          
           <li class="drop-down"><a href="">Writing Help</a>
             <ul>
               <li><a href="#">Essay Writing</a></li>
@@ -72,16 +72,26 @@
               <li><a href="#">Article writing</a></li>
               <li><a href="#">Assignment writing</a></li>
               <li><a href="#">Book report writing</a></li>
+              <li><a href="#">Speech writing</a></li>
+              <li><a href="#">Personal writing</a></li>
+              <li><a href="#">Literature review writing</a></li>
+              <li><a href="#">Coursework writing</a></li>
+              <li><a href="#">Lab report writing</a></li>
+              <li><a href="#">Homework writing</a></li>
               <li><a href="#">Article writing</a></li>
+              <li><a href="#">Casestudy writing</a></li>
+              <li><a href="#">Capstone project writing</a></li>
+              <li><a href="#">Movie review writing</a></li>
 
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="{% url 'login' %}">Login</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="#about" class="get-started-btn scrollto">SignUp</a>
+      <a href="{% url 'register' %}" class="get-started-btn scrollto">SignUp</a>
 
 
     </div>
